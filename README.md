@@ -30,9 +30,9 @@ OS:
 - contentfolder - Путь к контенту, т.е к моду.
 - previewfile - Файл превью контента. Т.е картинка в папке мода *thumbnail.png*.
 - visibility - Видимость предмета. 0 - открытый, 1 - только для друзей, 2 - скрытый
-- title - Заголовок продукта
-- description - Описание продукта
-- changenote - Описание обновления
+- title - Заголовок продукта 
+- description - Описание продукта на Английском языке.
+- changenote - Описание обновления на Английском языке.
 5. Сделали? Теперь настало время отправить мод в Steam! 
 Либо изменяем script-windows.bat, или открываем PowerShell где установлен SteamCMD и пишем:
 ``./steamcmd.exe +login myLoginName myPassword +workshop_build_item "C:\SteamCMD\economic-crisis.vdf" +quit``
