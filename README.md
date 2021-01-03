@@ -56,7 +56,7 @@ OS:
 
 Либо изменяем script-linux.sh и запускаем его, или открываем Terminal и пишем:
 
-``steamcmd +login myLoginName myPassword +workshop_build_item - "home\user\economic-crisis.vdf" +quit``
+``steamcmd +login myLoginName myPassword +workshop_build_item "home\user\economic-crisis.vdf" +quit``
 
 Где:
 - myLoginName - ваш логин Steam
