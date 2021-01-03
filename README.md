@@ -24,7 +24,7 @@ OS:
 "changenote" "Обновление v0.7.6"
 }
 ```
-- appid - ID приложения в Steam.
+- appid - ID приложения в Steam. В нашем случаи Heart of Iron IV - 394360
 - publishedfileid - ID контента в Steam Мастерской. Установите 0 - если публикуете в первый раз. Если нет, то скопируйте его из вашей страницы через ``Скопировать адрес вашей страницы`` и выписать ID мода. 
 Т.е ``https://steamcommunity.com/sharedfiles/filedetails/?id=2000532465`` из ссылки ID мода это 2000532465
 - contentfolder - Путь к контенту, т.е к моду.
