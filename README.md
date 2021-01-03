@@ -24,7 +24,7 @@ OS:
 "changenote" "Обновление v0.7.6"
 }
 ```
-- appid - ID приложения в Steam. В нашем случаи Heart of Iron IV - 394360
+- appid - ID приложения в Steam. В нашем случае Heart of Iron IV - 394360
 - publishedfileid - ID контента в Steam Мастерской. Установите 0 - если публикуете в первый раз. Если нет, то скопируйте его из вашей страницы через ``Скопировать адрес вашей страницы`` и выписать ID мода. 
 Т.е ``https://steamcommunity.com/sharedfiles/filedetails/?id=2000532465`` из ссылки ID мода это 2000532465
 - contentfolder - Путь к контенту, т.е к моду.
@@ -34,7 +34,7 @@ OS:
 - description - Описание продукта на Английском языке.
 - changenote - Описание обновления на Английском языке.
 5. Сделали? Теперь настало время отправить мод в Steam! 
-Либо изменяем script-windows.bat, или открываем PowerShell где установлен SteamCMD и пишем:
+Либо изменяем script-windows.bat и запускаем его, или открываем PowerShell где установлен SteamCMD и пишем:
 
 ``./steamcmd.exe +login myLoginName myPassword +workshop_build_item "C:\SteamCMD\economic-crisis.vdf" +quit``
 
@@ -54,7 +54,7 @@ OS:
 2. После того как вы скачали, создайте vdf файл так-же, как это описано у Windows в 4 пункте.
 3. Сделали? Теперь отправим мод в Steam!
 
-Либо изменяем script-linux.sh, или открываем Terminal и пишем:
+Либо изменяем script-linux.sh и запускаем его, или открываем Terminal и пишем:
 
 ``steamcmd +login myLoginName myPassword +workshop_build_item - "home\user\economic-crisis.vdf" +quit``
 
