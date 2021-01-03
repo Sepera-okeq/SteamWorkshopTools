@@ -1,0 +1,1 @@
+yum install glibc.i686 libstdc++.i686 steamcmd
