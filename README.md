@@ -1,12 +1,12 @@
 # SteamWorkshopTools
 
 OS:
-- [Windows](#_Windows:)
-- [Linux](#_Linux:)
-- [MasOS](#_MasOS:)
+- [Windows](#Windows)
+- [Linux](#Linux)
+- [MasOS](#MasOS)
 
 
-## Windows:
+## Windows
 1. Установите SteamCMD, скачав данный репозиторий или [здесь](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
 2. Распакуйте в удобную для вас папку. Например ``C:\SteamCMD``
 3. Откройте PowerShell в ``C:\SteamCMD`` или перейдите туда с помощью ``cd C:\SteamCMD``
@@ -45,7 +45,7 @@ OS:
 После того как SteamCMD закачает к вам на комп необходимые либы, начнется процесс заливки мода в Steam. Если у вас включен SteamGuard - то SteamCMD попросит вас ввести ключ, чтобы можно было залить вам мод.
 
 
-## Linux:
+## Linux
 1. Воспользуйтесь скриптами в bin/linux для вашей ОС
   - [Debian/Ubuntu](https://github.com/Sepera-okeq/SteamWorkshopTools/blob/main/bin/linux/debian_ubuntu.sh)
   - [RedHat/CentOS](https://github.com/Sepera-okeq/SteamWorkshopTools/blob/main/bin/linux/redhat_centos.sh)
@@ -63,7 +63,7 @@ OS:
 
 Если у вас включен SteamGuard - то SteamCMD попросит вас ввести ключ, чтобы можно было залить вам мод.
 
-## MasOS:
+## MasOS
 1. Установка производится через Terminal - [команды](https://github.com/Sepera-okeq/SteamWorkshopTools/blob/main/bin/macos/macos.txt)
 2. После этого воспользуйтесь такими же инструкциями, как и описано в Linux по созданию vdf и заливке мода, указав лишь путь в вашей системе.
 
