@@ -35,6 +35,7 @@ OS:
 - changenote - Описание обновления на Английском языке.
 5. Сделали? Теперь настало время отправить мод в Steam! 
 Либо изменяем script-windows.bat, или открываем PowerShell где установлен SteamCMD и пишем:
+
 ``./steamcmd.exe +login myLoginName myPassword +workshop_build_item "C:\SteamCMD\economic-crisis.vdf" +quit``
 
 Где:
@@ -54,6 +55,7 @@ OS:
 3. Сделали? Теперь отправим мод в Steam!
 
 Либо изменяем script-linux.sh, или открываем Terminal и пишем:
+
 ``steamcmd +login myLoginName myPassword +workshop_build_item - "home\user\economic-crisis.vdf" +quit``
 
 Где:
