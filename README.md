@@ -44,7 +44,7 @@ Or we change the script-windows.bat and run it, or open PowerShell where SteamCM
 
 - myLoginName - your Steam login
 - myPassword - your Steam password
-- "C:\SteamCMD\economic-crisis.vdf" - путь к вашему файлу.
+- "C:\SteamCMD\economic-crisis.vdf" - the path to your vdf configuration file.
 
 After SteamCMD uploads the necessary files to your computer, the process of filling the mod in Steam will begin. If you have SteamGuard enabled, SteamCMD will ask you to enter the key so that you can upload the mod.
 
@@ -62,7 +62,7 @@ Or we change the script-linux.sh and run it, or open Terminal and write:
 
 - myLoginName - your Steam login
 - myPassword - your Steam password
-- "C:\SteamCMD\economic-crisis.vdf" - путь к вашему файлу.
+- "C:\SteamCMD\economic-crisis.vdf" - the path to your vdf configuration file.
 
 After SteamCMD uploads the necessary files to your computer, the process of filling the mod in Steam will begin. If you have SteamGuard enabled, SteamCMD will ask you to enter the key so that you can upload the mod.
 
