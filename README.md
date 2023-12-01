@@ -30,14 +30,18 @@ Choose your own OS:
 ```
 - appid - The Steam application ID. In our case, Heart of Iron IV is 394360
 - publishedfileid - ID of the content in the Steam Workshop. Set to 0 if you are publishing for the first time. If not, then copy it from your page via `Copy the address of your page` and write out the mod ID.
+
 Example: ``https://steamcommunity.com/sharedfiles/filedetails/?id=2000532465`` from the link, the mod ID is 2000532465
+
 - contentfolder - The path to content, i.e. to mod.
 - previewfile - The preview file of the content. I.e. the picture in the fashion folder *thumbnail.png*.
 - visibility - The visibility of the object. 0 - open, 1 - for friends only, 2 - hidden
 - title - Product Title
 - description - The product description is in English.
 - changenote - Description of the update in English.
+
 5. Did you? Now it's time to send the mod to Steam!
+
 Or we change the script-windows.bat and run it, or open PowerShell where SteamCMD is installed and write:
 
 ``./steamcmd.exe +login myLoginName myPassword +workshop_build_item "C:\SteamCMD\economic-crisis.vdf" +quit``
