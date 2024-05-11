@@ -1,7 +1,7 @@
 # SteamWorkshopTools
 
-> Устарело, но работает:
-Manual/В ручную - [here/тык](https://github.com/Sepera-okeq/SteamWorkshopTools/tree/main/manual)
+> Outdated, but it works:
+Manual - [here/тык](https://github.com/Sepera-okeq/SteamWorkshopTools/tree/main/manual)
 
 This script is based on the use of SteamCMD. Read more [here](https://developer.valvesoftware.com/wiki/SteamCMD)
 
@@ -19,24 +19,24 @@ Choose your own OS:
 
 ## Windows
 
-0. Установите Powershell 7, следуя инструкциям [MSDN](https://learn.microsoft.com/ru-ru/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4)
+0. Install Powershell 7 by following the instructions [MSDN](https://learn.microsoft.com/ru-ru/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4)
 Рекомендуется: [MS Store](https://apps.microsoft.com/detail/9mz1snwt0n5d?rtc=1&hl=nl-nl&gl=NL)
 
-1. Склонируйте проект:
+1. Clone the project:
 
 ```bash
 git clone https://github.com/Sepera-okeq/SteamWorkshopTools.git
 ```
 
-2. Перейдите в папку репозитория:
+2. Go to the repository folder:
 
 ```bash
 cd SteamWorkshopTools
 ```
 
-**Или**
+**OR**
 
-Нажмите по пустому месту в папке репозитория с Shift+ПКМ и выберите в контекстном меню "Открыть тут Терминал" / "Открыть тут Powershell"
+Click on an empty space in the repository folder with Shift+RMB and select "Open Terminal here" / "Open Powershell here" in the context menu
 
 ![open cmd](./docs/open_cmd.png)
 
@@ -55,12 +55,12 @@ Not implemented. Use the manual method.
 
 ### How do I find the AppID?
 
-Open game profile in Steam and copy the values from the link
+Open game page in Steam and copy the values from the link
 
 ![game profile](./docs/appid_ru.png)
 
 ### How do I find my ID for my mod?
 
-Open mod profile in Steam and copy the values from the link
+Open mod page in Steam and copy the values from the link
 
 ![mod profile](./docs/steamidworkshop_ru.png)
